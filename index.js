@@ -12,5 +12,5 @@ app.get('/person', (req,res)=>{
 })
 
 app.listen(5005, (err)=>{
-    if(!err) console.log('服务器启动成功')
+    if(!err) console.log('服务器启动成功, 请访问 http://localhost:5005/')
 })
